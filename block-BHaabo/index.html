@@ -6,3 +6,90 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>FlexBox | Assign2</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bd74f316b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+		<header>
+            <div class="container flex">
+                <div class="head">
+                    <h1>BHAUYOUDOING?</h1>
+                </div>
+                <div  class="flex">
+                    <div class="nav-head">
+                        <a href="#">
+                            <img src="assets/icons/bell.svg" alt="Bell Icon"/>
+                        </a>
+                    </div>
+                    <div  class="flex nav-head">
+                        <span>Sarah Jone</span>
+                        <a href="#">
+                            <img src="assets/icons/user.svg"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container sec flex">
+                <aside class="col1 flex">
+                    <div class="aside-boxa">
+                        <div class="a-box">
+                            <a href="#"><img src="assets/icons/dashboard.svg" alt="dashboard icon"/>Dashboard</a>
+                        </div>
+                        <div class="a-box a-box-art">
+                            <a href="#"><img src="assets/icons/article.svg" alt="Article icon"/>Article</a>
+                        </div>
+                        <div class="a-box">
+                            <a href="#"><img src="assets/icons/analytics.svg" alt="analytics icon"/>Analytics</a>
+                        </div>
+                        <div class="a-box">
+                            <a href="#"><img src="assets/icons/inbox.svg" alt="inbox icon"/>Inbox</a>
+                        </div>
+                        <div class="a-box">
+                            <a href="#"><img src="assets/icons/setting.svg" alt="setting icon"/>Settings</a>
+                        </div>
+                    </div>
+                    <div class="aside-boxb">
+                        <a href="#"><img src="assets/icons/log-out.svg" alt="logout icon"/>Logout</a>
+                    </div>
+                </aside>
+                <article class="col2">
+                    <img src="assets/01.png" alt="Punch today in the face"/>
+                    <h2>BHAUYOUDOING?</h2>
+                    <p>
+                        You speak dog better than you think you do. You may not be fluent; that would require actually being a dog. 
+                        But if you went to live in a dogs-only world, you’d be pretty good at understanding what they’re saying. 
+                        You can tell a nervous yip from a menacing growl, a bark that says hello from a bark that says get lost. 
+                    </p>
+                    <p>
+                        You can read the body language that says happy, that says sad, that says tired, that says scared, that says Please, please, please play with me right now! 
+                        Think that’s not a big deal? Then answer this: What does a happy bird look like? A sad lion? You don’t know, but dog talk you get.
+                    </p>
+                    <button class="btn">
+                        <a href="#">Read More</a>
+                    </button>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container flex">
+                <small>&copy; iayushksingh</small>
+                <nav>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
